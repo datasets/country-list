@@ -1,6 +1,8 @@
 ISO 3166-1-alpha-2 English country names and code elements. This list states
 the country names (official short names in English) in alphabetical order as
-given in ISO 3166-1 and the corresponding ISO 3166-1-alpha-2 code elements.
+given in [ISO 3166-1][] and the corresponding ISO 3166-1-alpha-2 code elements.
+
+[ISO 3166-1]: http://www.iso.org/iso/home/standards/country_codes.htm
 
 This list is updated whenever a change to the official code list in ISO 3166-1
 is effected by the ISO 3166/MA.

@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "id": "country-codes",
+    "title": "ISO 2 digit country codes"
+  },
+  "files": [
+    {
+      "path": "country-codes.csv",
+      "fields": [
+        {
+          "id": "Code"
+        },
+        {
+          "id": "Country"
+        }
+      ]
+    }
+  ]
+}

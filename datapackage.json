@@ -1,13 +1,11 @@
 {
-  "metadata": {
-    "name": "country-codes",
-    "title": "ISO 2 digit country codes",
-    "sources": [{
-      "name": "ISO",
-      "web": "http://www.iso.org/iso/home/standards/country_codes.htm"
-    }]
-  },
-  "files": [
+  "name": "country-codes",
+  "title": "ISO 2 digit country codes",
+  "sources": [{
+    "name": "ISO",
+    "web": "http://www.iso.org/iso/home/standards/country_codes.htm"
+  }],
+  "data": [
     {
       "path": "country-codes.csv",
       "fields": [

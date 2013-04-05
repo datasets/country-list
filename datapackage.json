@@ -8,14 +8,16 @@
   "files": [
     {
       "path": "country-codes.csv",
-      "fields": [
-        {
-          "id": "Code"
-        },
-        {
-          "id": "Country"
-        }
-      ]
+      "schema": {
+        "fields": [
+          {
+            "id": "Code"
+          },
+          {
+            "id": "Country"
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,10 +1,11 @@
 {
-  "name": "country-codes",
+  "name": "country-codes-iso-3166-2",
   "title": "ISO 2 digit country codes",
   "sources": [{
     "name": "ISO",
     "web": "http://www.iso.org/iso/home/standards/country_codes.htm"
   }],
+  "license": "ODC-PDDL",
   "resources": [
     {
       "path": "country-codes.csv",

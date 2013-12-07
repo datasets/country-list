@@ -1,6 +1,6 @@
 {
-  "name": "country-codes-iso-3166-2",
-  "title": "ISO 2 digit country codes",
+  "name": "country-list",
+  "title": "List of all countries with their 2 digit codes (ISO 3166-2)",
   "sources": [{
     "name": "ISO",
     "web": "http://www.iso.org/iso/home/standards/country_codes.htm"
@@ -8,17 +8,22 @@
   "license": "ODC-PDDL",
   "resources": [
     {
-      "path": "country-codes.csv",
+      "path": "data.csv",
       "schema": {
         "fields": [
           {
-            "id": "Code"
+            "name": "Name",
+            "description": "Country Name",
+            "type": "string"
           },
           {
-            "id": "Country"
+            "name": "Code",
+            "description": "ISO 2-digit code from ISO 3166-alpha-2",
+            "type": "string"
           }
         ]
-      }
+      },
+      "primaryKey": "Code"
     }
   ]
 }

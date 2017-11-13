@@ -3,12 +3,14 @@
   "title": "List of all countries with their 2 digit codes (ISO 3166-2)",
   "sources": [{
     "name": "ISO",
-    "web": "http://www.iso.org/iso/home/standards/country_codes.htm"
+    "path": "http://www.iso.org/iso/home/standards/country_codes.htm",
+    "title": "ISO"
   }],
   "license": "ODC-PDDL",
   "resources": [
     {
       "path": "data.csv",
+      "name": "data",
       "schema": {
         "fields": [
           {

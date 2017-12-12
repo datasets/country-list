@@ -1,3 +1,11 @@
+<p align="center">
+  <a href="https://github.com/datasets">
+    <img alt="datasets" src="https://avatars2.githubusercontent.com/u/1643515?s=200&v=4" width="146">
+  </a>
+</p>
+
+##### Important, commonly-used datasets in high quality, easy-to-use & open form as data packages
+
 ISO 3166-1-alpha-2 English country names and code elements. This list states
 the country names (official short names in English) in alphabetical order as
 given in [ISO 3166-1][] and the corresponding ISO 3166-1-alpha-2 code elements.
@@ -8,6 +16,60 @@ This list is updated whenever a change to the official code list in ISO 3166-1
 is effected by the ISO 3166/MA.
 
 It lists 250 official short names and code elements as of Dec 2012.
+
+## Contents
+
+- [Install](#install)
+- [Usage](#usage)
+- [License](#license)
+
+## Install 
+
+```
+npm install @mikanebu/country-list
+```
+
+## Usage
+
+```
+const countries = require('@mikanebu/country-list');
+```
+
+
+### Get name of the country
+
+```js
+name = countries.getName('GB')
+```
+
+### Get code of the country
+
+```js
+code = countries.getCode('Great Britain')
+```
+
+### Get list of all country names
+
+```js
+names = countries.getNames()
+```
+### Get list of all country codes
+
+```js
+codes = countries.getCodes()
+```
+
+### Get a key-value object of all countries using the name as key.
+
+```js
+countryList = countries.getNameList()
+```
+
+### Get a key-value object of all countries using the code as key.
+
+```js
+countryList = countries.getCodeList()
+```
 
 ## License
 

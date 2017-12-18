@@ -1,10 +1,4 @@
-<p align="center">
-  <a href="https://github.com/datasets">
-    <img alt="datasets" src="https://avatars2.githubusercontent.com/u/1643515?s=200&v=4" width="146">
-  </a>
-</p>
-
-##### Important, commonly-used datasets in high quality, easy-to-use & open form as data packages
+#### Important, commonly-used datasets in high quality, easy-to-use & open form as data packages
 
 ISO 3166-1-alpha-2 English country names and code elements. This list states
 the country names (official short names in English) in alphabetical order as
@@ -26,13 +20,13 @@ It lists 250 official short names and code elements as of Dec 2012.
 ## Install 
 
 ```
-npm install @mikanebu/country-list
+npm install @datasets/country-list
 ```
 
 ## Usage
 
 ```
-const countries = require('@mikanebu/country-list');
+const countries = require('@datasets/country-list');
 ```
 
 

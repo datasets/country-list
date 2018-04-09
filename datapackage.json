@@ -1,6 +1,6 @@
 {
   "name": "country-list",
-  "title": "List of all countries with their 2 digit codes (ISO 3166-2)",
+  "title": "List of all countries with their 2 digit codes (ISO 3166-1)",
   "sources": [
     {
       "name": "ISO",

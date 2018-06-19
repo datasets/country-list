@@ -35,5 +35,23 @@
       },
       "primaryKey": "Code"
     }
+  ],
+  "related": [
+    {
+      "title": "Country codes",
+      "path": "/core/country-codes"
+    },
+    {
+      "title": "Continent codes",
+      "path": "/core/continent-codes"
+    },
+    {
+      "title": "Airport codes",
+      "path": "/core/airport-codes"
+    },
+    {
+      "title": "Language codes",
+      "path": "/core/language-codes"
+    }
   ]
 }

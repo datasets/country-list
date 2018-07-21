@@ -39,19 +39,27 @@
   "related": [
     {
       "title": "Country codes",
-      "path": "/core/country-codes"
+      "path": "/core/country-codes",
+      "publisher": "core",
+      "formats": ["CSV", "JSON"]
     },
     {
       "title": "Continent codes",
-      "path": "/core/continent-codes"
+      "path": "/core/continent-codes",
+      "publisher": "core",
+      "formats": ["CSV", "JSON"]
     },
     {
       "title": "Airport codes",
-      "path": "/core/airport-codes"
+      "path": "/core/airport-codes",
+      "publisher": "core",
+      "formats": ["CSV", "JSON"]
     },
     {
       "title": "Language codes",
-      "path": "/core/language-codes"
+      "path": "/core/language-codes",
+      "publisher": "core",
+      "formats": ["CSV", "JSON"]
     }
   ]
 }

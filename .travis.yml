@@ -1,12 +1,11 @@
-language: node_js
-node_js:
-  - "8"
-script:
-  - node setup.js
+language: python
+install: echo 'skipping installation step'
+script: echo 'no script is needed'
 deploy:
-  provider: npm
-  email: datahub@datopian.com
-  api_key: $NPM_TOKEN
-branches:
-  only:
-    - npm
+  provider: pages
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  target-branch: npm
+  allow-empty-commit: true
+  on:
+    branch: master

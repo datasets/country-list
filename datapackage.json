@@ -1,0 +1,65 @@
+{
+  "name": "country-list",
+  "title": "List of all countries with their 2 digit codes (ISO 3166-1)",
+  "sources": [
+    {
+      "name": "ISO",
+      "path": "http://www.iso.org/iso/home/standards/country_codes.htm",
+      "title": "ISO"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "schema": {
+        "fields": [
+          {
+            "name": "Name",
+            "description": "Country Name",
+            "type": "string"
+          },
+          {
+            "name": "Code",
+            "description": "ISO 2-digit code from ISO 3166-alpha-2",
+            "type": "string"
+          }
+        ]
+      },
+      "primaryKey": "Code"
+    }
+  ],
+  "related": [
+    {
+      "title": "Country codes",
+      "path": "/core/country-codes",
+      "publisher": "core",
+      "formats": ["CSV", "JSON"]
+    },
+    {
+      "title": "Continent codes",
+      "path": "/core/continent-codes",
+      "publisher": "core",
+      "formats": ["CSV", "JSON"]
+    },
+    {
+      "title": "Airport codes",
+      "path": "/core/airport-codes",
+      "publisher": "core",
+      "formats": ["CSV", "JSON"]
+    },
+    {
+      "title": "Language codes",
+      "path": "/core/language-codes",
+      "publisher": "core",
+      "formats": ["CSV", "JSON"]
+    }
+  ]
+}

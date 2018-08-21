@@ -1,5 +1,5 @@
 language: node_js
-install: echo 'skipping installation step'
+install: npm i -g data-cli
 script:
   - git fetch origin npm:npm
   - git checkout npm
@@ -8,6 +8,7 @@ script:
 after_script:
   - npm version patch
   - git push origin npm
+  - data push
 branches:
   only:
   - master

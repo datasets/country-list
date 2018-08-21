@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/datasets/country-list#readme",
   "devDependencies": {
-    "ava": "^0.24.0"
+    "ava": "^0.24.0",
+    "papaparse": "^4.6.0",
+    "request": "^2.88.0"
   }
 }

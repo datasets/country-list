@@ -8,3 +8,7 @@ script:
 after_script:
   - npm version patch
   - git push origin npm
+branches:
+  only:
+  - master
+  - npm

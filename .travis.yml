@@ -1,5 +1,6 @@
 language: python
 install: echo 'skipping installation step'
+script: echo 'no script is needed'
 deploy:
   provider: pages
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable

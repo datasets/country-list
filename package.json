@@ -1,6 +1,6 @@
 {
   "name": "@datasets/country-list",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "List of all countries with their 2 digit codes (ISO 3166-2)",
   "main": "index.js",
   "directories": {

@@ -1,4 +1,5 @@
 dist: trusty
+install: gem install rake # This doesn't have sense but needed to resolve Travis failure https://github.com/craffel/mir_eval/issues/126
 deploy:
   provider: pages
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable

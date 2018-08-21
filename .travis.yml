@@ -7,6 +7,5 @@ deploy:
   provider: npm
   email: datahub@datopian.com
   api_key: $NPM_TOKEN
-branches:
-  only:
-    - npm
+  on:
+    branch: npm

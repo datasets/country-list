@@ -3,6 +3,8 @@ install: echo 'skipping installation step'
 script:
   - git fetch origin npm:npm
   - git checkout npm
+  - git remote rm origin
+  - git remote add origin $REMOTE_GIT
 after_script:
   - npm version patch
   - git push origin npm

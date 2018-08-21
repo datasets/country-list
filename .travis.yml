@@ -1,3 +1,4 @@
+language: python
 install: true
 deploy:
   provider: pages

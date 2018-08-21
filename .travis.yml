@@ -1,6 +1,8 @@
 language: node_js
 install: echo 'skipping installation step'
-script: git checkout -b npm origin/npm
+script:
+  - git fetch origin npm:npm
+  - git checkout npm
 after_script:
   - npm version patch
   - git push origin npm

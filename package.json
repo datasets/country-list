@@ -1,0 +1,31 @@
+{
+  "name": "@datasets/country-list",
+  "version": "1.0.0",
+  "description": "List of all countries with their 2 digit codes (ISO 3166-2)",
+  "main": "data.json",
+  "files": [
+    "data.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datasets/country-list.git"
+  },
+  "keywords": [
+    "countries",
+    "dataset",
+    "country",
+    "name",
+    "code",
+    "ISO 3166-1-alpha-2",
+    "ISO 3166-2"
+  ],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/datasets/country-list/issues"
+  },
+  "homepage": "https://github.com/datasets/country-list#readme"
+}

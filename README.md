@@ -1,3 +1,5 @@
+<a href="https://datahub.io/core/country-list"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25)" alt="badge" /></a>
+
 ISO 3166-1-alpha-2 English country names and code elements. This list states
 the country names (official short names in English) in alphabetical order as
 given in [ISO 3166-1][] and the corresponding ISO 3166-1-alpha-2 code elements.

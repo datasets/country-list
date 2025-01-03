@@ -23,3 +23,5 @@ resources:
     primaryKey: Code
 collection: logistics-data
 has_premium: true
+has_solutions:
+- global-geo-data

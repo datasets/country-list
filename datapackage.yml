@@ -24,4 +24,4 @@ resources:
 collection: logistics-data
 has_premium: true
 has_solutions:
-- global-geo-data
+- global-country-region-reference-data

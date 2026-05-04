@@ -12,6 +12,7 @@ licenses:
 resources:
   - path: data.csv
     name: data
+    description: List of all countries with their official short names in English and corresponding ISO 3166-1 alpha-2 two-letter country codes.
     schema:
       fields:
         - name: Name
@@ -25,3 +26,4 @@ collection: logistics-data
 has_premium: true
 has_solutions:
 - global-country-region-reference-data
+

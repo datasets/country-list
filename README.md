@@ -4,12 +4,12 @@ ISO 3166-1-alpha-2 English country names and code elements. This list states
 the country names (official short names in English) in alphabetical order as
 given in [ISO 3166-1][] and the corresponding ISO 3166-1-alpha-2 code elements.
 
-[ISO 3166-1]: https://www.iso.org/iso-3166-country-codes.html
+[ISO 3166-1]: http://www.iso.org/iso/home/standards/country_codes.htm
 
 This list is updated whenever a change to the official code list in ISO 3166-1
 is effected by the ISO 3166/MA.
 
-It lists 249 official short names and code elements. Note: the data reflects a point-in-time snapshot and may not include the most recent ISO 3166/MA updates.
+It lists 249 official short names and code elements as of Dec 2012.
 
 ## License
 
@@ -20,7 +20,7 @@ Nevertheless, it should be noted that this material is ultimately sourced from
 ISO and their rights and licensing policy is somewhat unclear. As this is a
 short, simple database of facts there is a strong argument that no rights can
 subsist in this collection. However, ISO state on [their
-site](https://www.iso.org/iso-3166-country-codes.html): 
+site](http://www.iso.org/iso/home/standards/country_codes.htm): 
 
 > ISO makes the list of alpha-2 country codes available for internal use and
 > non-commercial purposes free of charge. 

@@ -9,7 +9,7 @@ given in [ISO 3166-1][] and the corresponding ISO 3166-1-alpha-2 code elements.
 This list is updated whenever a change to the official code list in ISO 3166-1
 is effected by the ISO 3166/MA.
 
-It lists 250 official short names and code elements as of Dec 2012.
+It lists 249 official short names and code elements as of Dec 2012.
 
 ## License
 

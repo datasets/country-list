@@ -3,7 +3,7 @@ title: List of all countries with their 2 digit codes (ISO 3166-1)
 description: ISO 3166-1-alpha-2 English country names and code elements. This list states the country names (official short names in English) in alphabetical order as given in ISO 3166-1 and the corresponding ISO 3166-1-alpha-2 code elements.
 sources:
   - name: ISO
-    path: 'http://www.iso.org/iso/home/standards/country_codes.html'
+    path: 'https://www.iso.org/iso-3166-country-codes.html'
     title: ISO
 licenses:
   - name: ODC-PDDL-1.0
@@ -19,9 +19,10 @@ resources:
           description: Country Name
           type: string
         - name: Code
-          description: ISO 2-digit code from ISO 3166-alpha-2
+          description: ISO 2-letter code from ISO 3166-1-alpha-2
           type: string
-    primaryKey: Code
+      primaryKey:
+        - Code
 collection: logistics-data
 has_premium: true
 has_solutions:

@@ -12,7 +12,7 @@ licenses:
 resources:
   - path: data.csv
     name: data
-    description: List of all countries with their official short names in English and corresponding ISO 3166-1 alpha-2 two-letter country codes. Note: "Western Sahara" appears as "Western Sahara*" in the ISO source; the asterisk reflects its indeterminate status in the ISO standard.
+    description: List of all countries with their official short names in English and corresponding ISO 3166-1 alpha-2 two-letter country codes. Note: "Western Sahara" appears as "Western Sahara*" in the ISO source; the asterisk denotes a provisional name.
     schema:
       fields:
         - name: Name

@@ -11,7 +11,7 @@ is effected by the ISO 3166/MA.
 
 It lists 249 official short names and code elements as of May 2026.
 
-**Data note:** `Western Sahara` appears as `Western Sahara*` in the ISO source. The asterisk is carried through as-is; it reflects the territory's indeterminate status in the ISO 3166-1 standard.
+**Data note:** `Western Sahara` appears as `Western Sahara*` in the ISO source. The asterisk denotes a provisional name.
 
 ## License
 

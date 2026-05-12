@@ -2,17 +2,17 @@ name: country-list
 title: List of all countries with their 2 digit codes (ISO 3166-1)
 description: ISO 3166-1-alpha-2 English country names and code elements. This list states the country names (official short names in English) in alphabetical order as given in ISO 3166-1 and the corresponding ISO 3166-1-alpha-2 code elements.
 sources:
-  - name: ISO
-    path: 'http://www.iso.org/iso/home/standards/country_codes.html'
-    title: ISO
+  - name: ISO 3166 Maintenance Agency
+    path: 'https://www.iso.org/obp/ui/#search/code/'
+    title: ISO Online Browsing Platform (OBP) — ISO 3166-1
 licenses:
   - name: ODC-PDDL-1.0
-    path: 'http://opendatacommons.org/licenses/pddl/'
+    path: 'https://opendatacommons.org/licenses/pddl/'
     title: Open Data Commons Public Domain Dedication and License v1.0
 resources:
   - path: data.csv
     name: data
-    description: List of all countries with their official short names in English and corresponding ISO 3166-1 alpha-2 two-letter country codes.
+    description: List of all countries with their official short names in English and corresponding ISO 3166-1 alpha-2 two-letter country codes. Note: "Western Sahara" appears as "Western Sahara*" in the ISO source; the asterisk denotes a provisional name.
     schema:
       fields:
         - name: Name

@@ -39,3 +39,5 @@ collection: logistics-data
 has_extended_version: true
 has_solutions:
   - global-country-region-reference-data
+  - logistics
+  - worldwide-postal-code-database

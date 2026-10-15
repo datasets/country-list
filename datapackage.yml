@@ -19,6 +19,8 @@ licenses:
 resources:
   - path: data.csv
     name: data
+    format: csv
+    mediatype: text/csv
     description: >-
       List of all countries with their official short names in English and
       corresponding ISO 3166-1 alpha-2 two-letter country codes. Note:
@@ -30,8 +32,13 @@ resources:
           description: Country name
           type: string
         - name: Code
-          description: ISO 3166-1 alpha-2 two-letter country code
+          description: >-
+            ISO 3166-1 alpha-2 two-letter country code. Unique. Note: the code
+            for Namibia is the string "NA", which some readers (for example
+            pandas by default) turn into a missing value.
           type: string
+          constraints:
+            pattern: '^[A-Z]{2}$'
       primaryKey:
         - Code
 

@@ -1,0 +1,7 @@
+Attribution for country-list
+
+Contains information from ISO 3166-1, published by the ISO 3166 Maintenance Agency (ISO Online Browsing Platform, https://www.iso.org/obp/ui/#search/code/). ISO takes the country names from United Nations sources. Licence: unclear (none stated by the source).
+
+Changes made to the source data: none intended. The file is edited by hand (there is no script), and the codes and names are kept as ISO writes them.
+
+Not endorsed by, or affiliated with, ISO or the United Nations.

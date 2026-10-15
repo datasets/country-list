@@ -2,9 +2,8 @@ name: country-list
 title: List of all countries with their 2-digit codes (ISO 3166-1)
 description: >-
   ISO 3166-1 alpha-2 English country names and code elements. This list states
-  the country names (official short names in English) in alphabetical order as
-  given in ISO 3166-1, together with the corresponding ISO 3166-1 alpha-2 code
-  elements.
+  the English short names in alphabetical order as listed in ISO 3166-1,
+  together with the corresponding ISO 3166-1 alpha-2 code elements.
 
 sources:
   - name: ISO 3166 Maintenance Agency
@@ -13,8 +12,12 @@ sources:
 
 licenses:
   - name: ODC-PDDL-1.0
-    path: https://opendatacommons.org/licenses/pddl/
-    title: Open Data Commons Public Domain Dedication and License v1.0
+    path: https://opendatacommons.org/licenses/pddl/1.0/
+    title: >-
+      Open Data Commons Public Domain Dedication and License v1.0. Covers only
+      the maintainers' own selection and arrangement. The terms of the ISO
+      3166-1 codes and of the country names (which ISO takes from United
+      Nations sources) are unclear.
 
 resources:
   - path: data.csv
@@ -29,7 +32,10 @@ resources:
     schema:
       fields:
         - name: Name
-          description: Country name
+          description: >-
+            English short name, written as ISO gives it, for example "Korea
+            (the Republic of)". Names can contain commas, brackets and an
+            asterisk ("Western Sahara*").
           type: string
         - name: Code
           description: >-

@@ -1,0 +1,2 @@
+pycountry>=26.2.16
+frictionless>=5.18.0

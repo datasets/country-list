@@ -1,7 +1,7 @@
 Attribution for country-list
 
-Contains information from ISO 3166-1, published by the ISO 3166 Maintenance Agency (ISO Online Browsing Platform, https://www.iso.org/obp/ui/#search/code/). ISO takes the country names from United Nations sources. Licence: unclear (none stated by the source).
+Contains information from the pycountry package (https://github.com/pycountry/pycountry), licensed under the LGPL-2.1, which includes the data of the Debian iso-codes project (https://salsa.debian.org/iso-codes-team/iso-codes). The data is ISO 3166-1, published by the ISO 3166 Maintenance Agency; ISO takes the country names from United Nations sources. Licence of the names and codes as used here: unclear (none stated by ISO for the list; ISO allows free-of-charge use of the codes).
 
-Changes made to the source data: none intended. The file is edited by hand (there is no script), and the codes and names are kept as ISO writes them.
+Changes made to the source data: the script scripts/process.py takes each country's English name and alpha-2 code from pycountry and sorts the rows by name. Nothing else is changed.
 
-Not endorsed by, or affiliated with, ISO or the United Nations.
+Not endorsed by, or affiliated with, ISO, the United Nations, pycountry or the iso-codes project.

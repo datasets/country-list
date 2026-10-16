@@ -1,0 +1,45 @@
+name: Update country list
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build the data
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r scripts/requirements.txt
+          python scripts/process.py
+
+      - name: Validate the data
+        run: |
+          source venv/bin/activate
+          python scripts/validate.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "actions@users.noreply.github.com"
+          git config --global user.name "Automated commit"
+          git add data.csv
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated commit"
+            git push origin main
+          fi

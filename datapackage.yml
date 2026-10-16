@@ -1,23 +1,25 @@
 name: country-list
 title: List of all countries with their 2-digit codes (ISO 3166-1)
 description: >-
-  ISO 3166-1 alpha-2 English country names and code elements. This list states
-  the English short names in alphabetical order as listed in ISO 3166-1,
-  together with the corresponding ISO 3166-1 alpha-2 code elements.
+  ISO 3166-1 alpha-2 English country names and code elements, in alphabetical
+  order of the name. Rebuilt from the ISO 3166-1 data in the pycountry package.
 
 sources:
-  - name: ISO 3166 Maintenance Agency
-    path: https://www.iso.org/obp/ui/#search/code/
-    title: ISO Online Browsing Platform (OBP) — ISO 3166-1
+  - name: pycountry
+    path: https://github.com/pycountry/pycountry
+    title: pycountry, which includes the ISO 3166-1 data of the Debian iso-codes project
 
 licenses:
   - name: ODC-PDDL-1.0
     path: https://opendatacommons.org/licenses/pddl/1.0/
     title: >-
       Open Data Commons Public Domain Dedication and License v1.0. Covers only
-      the maintainers' own selection and arrangement. The terms of the ISO
-      3166-1 codes and of the country names (which ISO takes from United
-      Nations sources) are unclear.
+      the maintainers' own work (the script, the selection and arrangement of
+      the list and the file). It does not cover the ISO 3166-1 codes or the
+      country names. pycountry, where they come from, is licensed under the
+      LGPL-2.1, which is a software licence. ISO's terms for the list and for
+      the names (which ISO takes from United Nations sources) are unclear. See
+      README.md and ATTRIBUTION.txt.
 
 resources:
   - path: data.csv
@@ -25,17 +27,15 @@ resources:
     format: csv
     mediatype: text/csv
     description: >-
-      List of all countries with their official short names in English and
-      corresponding ISO 3166-1 alpha-2 two-letter country codes. Note:
-      "Western Sahara" appears as "Western Sahara*" in the ISO source; the
-      asterisk denotes a provisional name.
+      List of all countries with their English short names and corresponding
+      ISO 3166-1 alpha-2 two-letter country codes.
     schema:
       fields:
         - name: Name
           description: >-
-            English short name, written as ISO gives it, for example "Korea
-            (the Republic of)". Names can contain commas, brackets and an
-            asterisk ("Western Sahara*").
+            English short name, as pycountry gives it, for example "Korea,
+            Republic of". Names can contain commas (they are in quotes in the
+            file) and brackets.
           type: string
         - name: Code
           description: >-
